@@ -2,8 +2,6 @@
   <PropertyGroup>
     <AssemblyName>X86_Avx512F_r</AssemblyName>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <!-- Test assets are architecture-neutral, so this x86 managed-ilasm OOM exclusion must be unconditional. -->
-    <ManagedIlasmRoundTripIncompatible>true</ManagedIlasmRoundTripIncompatible>
   </PropertyGroup>
   <PropertyGroup>
     <DebugType>Embedded</DebugType>
